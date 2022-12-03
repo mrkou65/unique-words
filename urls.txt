@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/nikahd99/iranian-Names-Database-By-Gender/main/iranianNamesDataset.json
+https://huggingface.co/datasets/SLPL/naab/resolve/main/data/test-00000-of-00003.txt
