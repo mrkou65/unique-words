@@ -28,7 +28,7 @@ jobs:
         
     - name: Run python script
       run: |
-        python unique-word-extractor
+        python unique-word-extractor.py
         
     - name: Publish          
       uses: mikeal/publish-to-github-action@master
