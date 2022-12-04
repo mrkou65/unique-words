@@ -8,7 +8,8 @@ if not exists("unique-words.txt"):
 
 urls = [
 # "https://huggingface.co/datasets/SLPL/naab/resolve/main/data/test-00000-of-00003.txt"
-"https://raw.githubusercontent.com/milad-4274/persian_news/master/main_news.csv"
+# "https://raw.githubusercontent.com/milad-4274/persian_news/master/main_news.csv"
+"https://storage.googleapis.com/danielk-files/farsi-text/merged_files/fawiki_merged.txt"
 ]
 
 for url in urls:
