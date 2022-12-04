@@ -6,7 +6,10 @@ import requests
 if not exists("unique-words.txt"):
     open("unique-words.txt", 'a').close()
 
-urls = open('urls.txt', "r", encoding="utf-8").read().splitlines()
+urls = [
+# "https://huggingface.co/datasets/SLPL/naab/resolve/main/data/test-00000-of-00003.txt"
+"https://raw.githubusercontent.com/milad-4274/persian_news/master/main_news.csv"
+]
 
 for url in urls:
     text = requests.get(url).text
