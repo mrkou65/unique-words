@@ -1,4 +1,4 @@
-name: Python application
+name: Format codes based on pep-8
 
 on: [workflow_dispatch, push]  
 
@@ -23,9 +23,6 @@ jobs:
         
     - name: Install black formatter
       run: pip install black
-      
-    - name: Install Requests
-      run: pip install requests
         
     - name: Format all codes
       run: |
