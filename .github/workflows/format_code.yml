@@ -1,4 +1,4 @@
-name: Format codes based on pep-8
+name: pep8-formatter
 
 on: [workflow_dispatch, push]  
 
