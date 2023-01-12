@@ -21,7 +21,7 @@ jobs:
       run: pip install black
         
     - name: Format all codes
-      run: black . --line-length=79
+      run: black .
         
     - name: Push back changes          
       uses: mikeal/publish-to-github-action@master
